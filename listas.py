@@ -33,10 +33,13 @@ def quadrados(a, N):
         i+=1
     return lista
 
+def quadrados2(a, N):
+    for i in range(N):
+        a.append(i ** 2)
 
 lista = []
 #swap(lista, 0, 3)
 #lista.reverse()
-quadrados(lista, 4)
+quadrados2(lista, 4)
 
 print(lista)

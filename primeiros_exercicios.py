@@ -1,3 +1,11 @@
+"""
+for x in range(10) faz while x < 10, x++
+break -> acaba com o ciclo
+continue -> ignora o que vem a seguir do continue nessa iteração do ciclo e avança para a proxima
+range(2,10,2) faz x de 2 a 10 e faz x+=2
+pass, caso tiver um for sem nada, coloco um pass dentro do ciclo para não haver erros
+"""
+
 def quadrado(n):
     i = 0
     while i < n:
