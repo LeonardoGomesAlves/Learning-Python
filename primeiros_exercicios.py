@@ -55,8 +55,6 @@ def triangulo_horizontal(n):
         print("")
         baixo-=1
 
-def triangulo_vertical (n):
-
 triangulo_horizontal(2)
 print("")
 quadrado(5)
