@@ -6,6 +6,8 @@ a.remove(x) -> remove a primeira aparição de x
 a.clear -> remove tudo da lista
 a.index (x, [start, end]) -> dá o index de x dado um intervalo
 a.sort() -> dá sort à lista
+a.pop(n), tira o elemento da posição n
+a.remove(x) retira o elemento x da lista
 """
 
 #troca numa lista a, os elementos das posicoes i e j
