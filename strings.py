@@ -43,12 +43,23 @@ def retiraVogaisRep (s: str):
             aux.append(s[i+1])
     if s[len(s)-1] != aux[len(aux)-1]:
         aux.append(s[len(s)-1])
-    return aux
+    aux2 = listToString(aux)
+    return aux2
 
-
+def duplicaVogais(s: str):
+    i = 0
+    aux = []
+    count = 0
+    
+    for i in range(len(s)):
+        aux.append(s[i])
+        if isVocal(s[i]):
+            aux.append(s[i])
+            count+=1
+    s = listToString(aux)
+    return count
             
 
-string = "aaaeee"
-aux = retiraVogaisRep(string)
-string2 = listToString(aux)
-print(string2)
+string = "Ola, tudo bem?"
+aux = duplicaVogais(string)
+print(aux)
