@@ -1,4 +1,5 @@
 """
+nao da para acrescentar nada às strings
 len(string)
 a[3:7] -> print os elementos de a[3] a a[6] ([start:stop:step], o step pode ainda ser negativo, começando assim no final da string)
 a.startswith("fdsfsdfds") e a.endswith("asdasd")
